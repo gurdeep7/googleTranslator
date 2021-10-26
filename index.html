@@ -5,11 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/8a057c8fa7.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
     <div id="header">
-
+        <div class="fas fa-bars" id="menu"></div>
+        <img src="https://1000logos.net/wp-content/uploads/2016/11/google_logo.png"/>
+        <p>Translate</p>
+        <div id= "leftHeader">
+            <div class="fas fa-th"></div>
+            <img src="https://lh3.googleusercontent.com/ogw/ADea4I4i9q9Xfuhpp3mrlkT3oz8cnk_BeGKsrVcNEQxv=s32-c-mo"/>
+        </div>
     </div>
+    <div id="translator">
+        <div>
+            <select name="language" id="cLanguage">
+                <option value="English">English</option>
+            </select>
+            <textarea id="iLanguage" cols="49" rows="10" placeholder="Enter text"></textarea>
+            <i onclick="recognition.start()" class="fas fa-microphone"></i>
+        </div>
+        <div>
+            <select name="language" id="oLanguage">
+                <option value="English">English</option>
+            </select>
+            <textarea id="conLanguage" cols="49" rows="10" placeholder="Enter text"></textarea>
+            <i onclick="speak()" class="fas fa-volume-up"></i>
+        </div>
+    </div>
+    
 </body>
 </html>
+<script src="index.js"></script>
