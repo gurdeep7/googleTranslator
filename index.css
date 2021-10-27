@@ -45,15 +45,17 @@ div{
 #translator{
     display: flex; 
     border: solid black;
-    width: 80%;
+    width: 70%;
     margin: auto;
     margin-top: 20px;
 }
 #translator > div{
     width: 50%;
+    display: block;
 }
 select{
     width: 100%;
+    font-size: 30px;
 }
 input{
     width: 99%;
@@ -67,7 +69,12 @@ i{
     align-content: center;
     box-sizing: border-box;
     padding: 14px;
+    display: block;
 }
 i:hover{
     background-color: grey;
+}
+textarea{
+    width: 99%;
+    font-size: 30px;
 }
