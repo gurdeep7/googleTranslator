@@ -4,8 +4,8 @@ It is a clone of Google Translator, I used Advanced Javascript for text to sound
 Translation is done by libretranslate.de API
 
 <h3>Features</h3>
-<li>
-<ul>Text to voice</ul>
-  <ul>Voice to text</ul>
+<ul>
+<li>Text to voice</li>
+  <li>Voice to text</li>
   <ul>25 Languages Supported</ul>
- </li>
+ </ul>
