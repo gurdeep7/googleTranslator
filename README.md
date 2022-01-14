@@ -7,5 +7,5 @@ Translation is done by libretranslate.de API
 <ul>
 <li>Text to voice</li>
   <li>Voice to text</li>
-  <ul>25 Languages Supported</ul>
+  <li>25 Languages Supported</li>
  </ul>
