@@ -9,3 +9,6 @@ Translation is done by libretranslate.de API
   <li>Voice to text</li>
   <li>25 Languages Supported</li>
  </ul>
+
+### Screenshot
+<img src= "./Screenshot.png" width="600px" alt="Screenshot">
